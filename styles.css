@@ -26,5 +26,62 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ——————————— YOUR CSS STARTS BELOW HERE ——————————— */
 
 body {
-  background-color: peachpuff;
+  color: #131416;
+  font-family: 'Lexend', sans-serif;
+}
+
+section {
+  background-color: #131416;
+}
+
+h1 {
+  font-family: 'Jolly Lodger', serif;
+  font-size: 12rem;
+}
+
+p {
+  color: white;
+  font-weight: 200;
+}
+
+button {
+  font-size: 2rem;
+  border-radius: 15px;
+  padding: 20px 40px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.closing {
+  background-color: #131416;
+  color: white;
+}
+
+.block {
+  height: 50px;
+  width: 50px;
+}
+
+.p {
+  background-color: #A629E0;
+}
+
+.o {
+  background-color: #FF6E01;
+}
+
+.w {
+  background-color: #FADEAE;
+}
+
+.g {
+  background-color: #86D57B;
+}
+
+#reg_block {
+  padding: 10%;
+}
+
+#main_info p{
+  color: #131416;
 }
