@@ -55,11 +55,28 @@ button {
 .closing {
   background-color: #131416;
   color: white;
+  height: 100vh;
+}
+
+.block_stack{
+  height: 50vh;
 }
 
 .block {
-  height: 50px;
-  width: 50px;
+  height: 25vh;
+  width: 25vh;
+}
+
+.first_line, .second_line {
+  display: flex;
+  width: 97vw;
+  margin: auto;
+}
+
+.closing_block h1{
+  padding: 15vh 0;
+  text-align: center;
+  font-size: 6rem;
 }
 
 .p {
