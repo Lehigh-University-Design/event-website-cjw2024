@@ -44,9 +44,15 @@ h1 {
   font-size: 20rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 p {
   color: white;
   font-weight: 200;
+  font-size: 1.5rem;
+  text-indent: 10%;
 }
 
 button {
@@ -55,6 +61,10 @@ button {
   padding: 20px 40px;
   border: none;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: #86D57B;
 }
 
 nav {
@@ -144,4 +154,14 @@ header {
 
 #main_info p{
   color: #131416;
+}
+
+section {
+  height: 100vh;
+}
+
+#main_info {
+  border-radius: 30px;
+  width: 50vw;
+  padding: 10vw; 
 }
