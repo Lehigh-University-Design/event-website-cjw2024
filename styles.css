@@ -35,7 +35,7 @@ body::-webkit-scrollbar{
   display: none;
 }
 
-section {
+section, main {
   background-color: #131416;
 }
 
@@ -204,4 +204,71 @@ section {
 
 #reg_block p{
   font-size: 1.25vw;
+}
+
+#serving {
+  float: right;
+  font-family: 'Jolly Lodger', serif;
+  padding-right: 10%;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#serve {
+  font-size: 7vw;
+}
+
+#FOOD {
+  padding-top: 12%;
+  padding-left: 10%;
+}
+
+#food_title {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  padding: 3%;
+  margin: auto;
+}
+
+#trucks_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.truck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  padding: 3%;
+  border-radius: 30px;
+  height: fit-content;
+  width: 30%;
+  transition: transform .2s;
+}
+
+.truck:hover {
+  transform: scale(1.1);
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+.truck p{
+  text-align: center;
+  font-size: 1vw;
+  text-indent: 0;
+  width: 75%;
+}
+
+.truck img{
+  width: 25%;
 }
