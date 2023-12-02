@@ -317,3 +317,37 @@ h3 {
   padding: 1% 8%;
   border-radius: 30px;
 }
+
+.flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+#loca {
+  font-size: 15vw;
+  float: right;
+  margin-top: 5vw;
+  margin-right: 5vw;
+  width: fit-content;
+  height: fit-content;
+}
+
+#serving {
+  width: fit-content;
+  height: fit-content;
+  padding-bottom: 5vw;
+  font-size: 3vw;
+}
+
+#location_info {
+  width: 45vw;
+  height: fit-content;
+  border-radius: 30px;
+  padding: 5vw;
+}
+
+.flex_loca{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
