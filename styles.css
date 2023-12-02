@@ -207,15 +207,12 @@ section {
 }
 
 #serving {
-  float: right;
   font-family: 'Jolly Lodger', serif;
-  padding-right: 10%;
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 40vw;
+  margin-right: 10vw;
+  height: 75vh;
+  float: right;
+  text-align: center;
 }
 
 #serve {
@@ -264,13 +261,14 @@ h3 {
 
 .truck p{
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.25vw;
   text-indent: 0;
   width: 75%;
+  color: #131416;
 }
 
 .truck img{
-  width: 25%;
+  width: 40%;
 }
 
 #Events {
@@ -332,11 +330,12 @@ h3 {
   height: fit-content;
 }
 
-#serving {
+#serving_head {
   width: fit-content;
   height: fit-content;
   padding-bottom: 5vw;
   font-size: 3vw;
+  font-family: "Jolly Lodger", serif;
 }
 
 #location_info {
@@ -350,4 +349,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icons {
+  padding: 8px;
 }
