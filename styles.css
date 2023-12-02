@@ -272,3 +272,48 @@ h3 {
 .truck img{
   width: 25%;
 }
+
+#Events {
+  float: right;
+  padding-right: 10vw;
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40vw;
+}
+
+#events_block p {
+  font-size: 1.25vw;
+  text-indent: 0;
+}
+
+#events_block {
+  border-radius: 30px;
+  width: fit-content;
+  height: fit-content;
+  padding: 5%;
+  margin: 3%;
+}
+
+#events_title{
+  text-align: right;
+  font-size: 10vw;
+  line-height: 13vh;
+}
+
+#have_fun h1{
+  font-size: 5vw;
+}
+
+#have_fun {
+  width: fit-content;
+  height: fit-content;
+  padding: 1% 8%;
+  border-radius: 30px;
+}
