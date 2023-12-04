@@ -168,13 +168,13 @@ section {
   border-radius: 30px;
   width: 50vw;
   padding: 7vw;
-  margin: 2.5%;
+  margin: 2.5% 10%;
 }
 
 .float {
   float: right;
   width: 25vw;
-  margin: 10%;
+  margin: 5% 10%;
 }
 
 #home_registration{
@@ -353,4 +353,18 @@ h3 {
 
 .icons {
   padding: 8px;
+}
+
+#layered {
+  background-image: url(images/chuttersnap-h-lvBJXBXn8-unsplash.jpg);
+  background-position: top;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+#layered_events {
+  background-image: url(images/aleksander-saks-kjJIswOh1ys-unsplash.jpg);
+  background-position: left 10% top 10%;
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
