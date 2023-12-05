@@ -83,6 +83,12 @@ a {
   color: #131416;
 }
 
+#closing_a a {
+  font-size: 1rem;
+  padding: 0;
+  color: #131416;
+}
+
 a:hover {
   color: #A629E0;
   background-color: #131416;
