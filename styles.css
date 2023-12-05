@@ -135,7 +135,7 @@ header {
 }
 
 .closing_block h1{
-  padding: 15vh 0;
+  padding: 10vw 0;
   text-align: center;
   font-size: 6vw;
 }
@@ -158,10 +158,6 @@ header {
 
 #main_info p{
   color: #131416;
-}
-
-section {
-  height: 100vh;
 }
 
 #main_info {
@@ -210,7 +206,6 @@ section {
   font-family: 'Jolly Lodger', serif;
   width: 40vw;
   margin-right: 10vw;
-  height: 75vh;
   float: right;
   text-align: center;
 }
@@ -355,6 +350,11 @@ h3 {
   padding: 8px;
 }
 
+.court {
+  margin: 5vw 0;
+  height: 75vh;
+}
+
 #layered {
   background-image: url(images/chuttersnap-h-lvBJXBXn8-unsplash.jpg);
   background-position: top;
@@ -367,4 +367,207 @@ h3 {
   background-position: left 10% top 10%;
   background-size: 50%;
   background-repeat: no-repeat;
+}
+
+#hide {
+  display: none;
+}
+
+/* Responsive Media Queries */
+
+@media only screen and (max-width: 1200px){
+
+  .block_stack {
+    height: 35vh;
+  }
+
+  .block {
+    height: 17.5vh;
+    width: 17.5vh;
+  }
+
+  .closing {
+    height: 70vh
+  }
+
+  .court {
+    height: 50vh;
+  }
+
+}
+
+@media only screen and (max-width: 900px){
+
+  header {
+    height: 50vh;
+  }
+
+  .block_stack {
+    height: 25vh;
+  }
+
+  .block {
+    height: 12.5vh;
+    width: 12.5vh;
+  }
+
+  .closing {
+    height: 50vh
+  }
+
+  .court {
+    height: 50vh;
+  }
+  
+}
+
+@media only screen and (max-width: 400px){
+  h1 {
+    font-size: 16vw;
+  }
+  
+  h2 {
+    font-size: 5vw;
+  }
+  
+  p {
+    font-size: 4vw;
+  }
+
+  button {
+    font-size: 4vw;
+  }
+
+  header {
+    height: 50vh;
+  }
+
+  .block_stack {
+    display: none;
+  }
+
+  .closing {
+    height: 15vh;
+  }
+
+  .court {
+    display: none;
+  }
+
+  #trucks_list {
+    flex-direction: column;
+  }
+
+  #reg_tile{
+    padding: 5%;
+    margin: 3% auto;
+    transform: rotate(0deg);
+  }
+  
+  #reg_block h2{
+    font-size: 5vw;
+  }
+  
+  #reg_block p{
+    font-size: 4vw;
+  }
+
+  #home_registration{
+    display: block;
+    margin: 3%;
+  }
+
+  #home_info img {
+    display: none;
+  }
+
+  #main_info {
+    margin: auto;
+    width: 90%;
+  }
+
+  .truck {
+    margin: 1%;
+    padding: 3%;
+    height: fit-content;
+    width: 90%;
+  }
+  
+  h3 {
+    font-size: 5vw;
+  }
+  
+  .truck p, #events_block p{
+    font-size: 3vw;
+  }
+
+  #food_title{
+    width: 90%;
+    text-align: center;
+  }
+
+  #have_fun h1{
+    font-size: 10vw;
+  }
+
+  #location_info {
+    width: 90%;
+    margin: 3% auto;
+  }
+
+  .title_wrapper{
+    display: flex;
+    text-align: center;
+    padding-top: 2vh;
+  }
+
+  nav {
+    height: 10vh;
+  }
+
+  .main_logo {
+    float: none;
+    margin: auto;
+    width: 75%;
+  }
+  
+  #serving {
+    display: none;
+  }
+
+  #FOOD {
+    padding: 0;
+  }
+
+  #hide {
+    display: block;
+    width: 80%;
+  }
+
+  .phone_screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #layered_events {
+    background-image: none;
+  }
+
+  #Events {
+    padding: 0;
+  }
+
+  #layered {
+    background-image: none;
+  }
+
+  .flex {
+    display: none;
+  }
+
+  #loca {
+    margin: 0;
+  }
 }
