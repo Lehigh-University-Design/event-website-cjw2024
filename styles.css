@@ -427,6 +427,8 @@ h3 {
   
 }
 
+/* Phone size Stylings */
+
 @media only screen and (max-width: 400px){
   h1 {
     font-size: 16vw;
